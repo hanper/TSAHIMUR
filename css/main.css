@@ -1,0 +1,122 @@
+body {
+    font-family: Forum;
+    height: 100%;
+}
+.height250 {
+    height: 250px;
+}
+.height50 {
+    height: 50px;
+}
+.height25 {
+    height: 25px;
+}
+.top-bar .toggle-topbar.menu-icon a span::after {
+    box-shadow: 0 0 0 1px #494091, 0 7px 0 1px #494091, 0 14px 0 1px #494091;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    color: black;
+}
+
+.white {
+    background-color: white;
+}
+.banner {
+    height: 100%;
+    background-image: none;
+    background-color: #fff;
+}
+.banner-content {
+    margin-top: 10%;
+}
+.banner-pink {
+    background-color: #494091;
+}
+.banner-orange {
+    background-color: #f0a734;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+.banner-green {
+    background-color: #5eb290;
+}
+.info-content {
+    color: #434343;
+    text-align: center;
+}
+.info-content h2 {
+    font-size: 67px; 
+}
+.info-content p {
+    font-size: 25px; 
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.products {
+    min-height: 500px;
+}
+.products h2 {
+    margin-top: 80px;
+    font-size: 57px;
+}
+.products p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #434343;
+    min-height: 500px;
+}
+.footer-strip {
+    height: 25px;
+    width: 100%;
+    background-color: #494091;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1000;
+}
+
+@media only screen and (min-width: 75em) {
+    .banner {
+        background-image: url('/img/slide_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        min-height: 700px;
+    }
+    .info {
+        background-image: url('/img/body_bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 250px;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        background: white;
+        color:  #575757;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: white;
+        color:  #494091;
+    }
+    .top-bar-section .divider, .top-bar-section [role="separator"] {
+        border-bottom: none;
+        border-top: none;
+        border-right: none;
+        border-left: solid 1px #575757;
+        clear: none;
+        height: 18px;
+        margin-top: 13px;
+        width: 0;
+        display: block;
+    }
+    .clear-row {
+    width: 100%;
+    max-width: none;
+    }
+}
+
